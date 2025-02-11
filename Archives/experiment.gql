@@ -1,0 +1,33 @@
+COVID19-Data-Storytelling/
+│── data/                         # Raw & processed datasets
+│   ├── raw/                      # Store original unmodified datasets
+│   ├── processed/                 # Cleaned, aggregated, and feature-engineered datasets
+│   ├── COVID-19-data.csv          # Main dataset (can be in processed folder)
+│
+│── notebooks/                     # Jupyter Notebooks for analysis & experiments
+│   ├── 01_data_exploration.ipynb   # Initial EDA and visualizations
+│   ├── 02_time_series_forecasting.ipynb  # Prophet & ARIMA modeling
+│   ├── 03_clustering_countries.ipynb     # K-Means/DBSCAN clustering
+│   ├── 04_visualizations.ipynb           # Choropleth maps, heatmaps, line charts
+│
+│── src/                            # Python scripts for modularization
+│   ├── data_preprocessing.py       # Functions to clean and transform data
+│   ├── time_series_forecasting.py  # Functions for Prophet, ARIMA models
+│   ├── clustering_analysis.py       # Functions for clustering (K-Means, DBSCAN)
+│   ├── visualizations.py            # Code for Plotly, Seaborn, and Tableau exports
+│
+│── dashboard/                       # Dashboard-related files
+│   ├── app.py                        # Streamlit/Plotly Dash app main file
+│   ├── components/                   # Modularized dashboard components
+│
+│── reports/                         # Documentation & reports
+│   ├── README.md                     # Project overview & setup guide
+│   ├── research_findings.md           # Summary of findings and insights
+│   ├── proposal.pdf                   # Project plan (if needed)
+│
+│── requirements.txt                   # Python dependencies
+│── .gitignore                          # Ignore unnecessary files (datasets, logs, etc.)
+│── environment.yml                     # Conda environment file (optional)
+│── LICENSE                             # License file (MIT, Apache, etc.)
+│── README.md                           # Main project description
+│── setup.py                            # If you package any reusable scripts
